@@ -51,8 +51,8 @@ export default {
       choices: ['ค้อน', 'กระดาษ', 'กรรไกร'],
       playerChoice: '',
       botChoice: '',
-      player1: "src/vdogif/rock-paper-scissors1.gif", 
-      player2: "src/vdogif/rock-paper-scissors.gif", 
+      player1: "https://im4.ezgif.com/tmp/ezgif-4-ea188a4dae.webp", 
+      player2: "https://im4.ezgif.com/tmp/ezgif-4-ea188a4dae.webp", 
       resultMessage: '',
       scorePlayer: 0, 
       scorebotplayer: 0,  
@@ -74,11 +74,11 @@ export default {
     },
     getImagePath(choice) {
       if (choice === 'ค้อน') {
-        return "src/assets/img/hammer.png";
+        return "https://i.ibb.co/kyQZB68/hammer.png";
       } else if (choice === 'กระดาษ') {
-        return "src/assets/img/paper.png";
+        return "https://i.ibb.co/bRQWLRW/paper.png";
       } else if (choice === 'กรรไกร') {
-        return "src/assets/img/scissors.png";
+        return "https://i.ibb.co/Wp4xgCN/scissors.png";
       }
     },
     calculateWinner() {
